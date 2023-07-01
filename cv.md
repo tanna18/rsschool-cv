@@ -26,3 +26,9 @@ At the moment I am a student of BSU. My strengths are purposefulness and desire 
         refreshHSV(r, g, b);
     }
 ```
+## Education
+* **Belarusian State University**
++ Faculty of Mechanics and Mathematics
+## Languages
+* Russian - native language.
+* English - A2.
