@@ -13,7 +13,7 @@ At the moment I am a student of BSU. My strengths are purposefulness and desire 
 * Figma(for web development)
 * Photoshop
 ## Code examples
-` ` ` 
+``` 
  function onRGBChange() {
         const r = document.getElementById("rgb-first").value;
         const g = document.getElementById("rgb-second").value;
@@ -25,4 +25,4 @@ At the moment I am a student of BSU. My strengths are purposefulness and desire 
         refreshCMY(r, g, b);
         refreshHSV(r, g, b);
     }
-` ` `
+```
