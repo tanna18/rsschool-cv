@@ -3,9 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <title>Моя веб-страница</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<p>Привет, мир! Это моя первая веб-страница.</p>
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Code examples</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="main-container">
+   <section class="my-profile">
+    <div class="profile">
+    <img src="foto.jpg">
+    <h1 class="section-title1">Anna<span class="second">Tonoyan</h1>
+    </div>
+    </section>
+    <section class="contact" id="contacts">
+        <h2 class="section-title">My contact info:</h2>
+        <ul class="list">
+            <li class="item">E-mail:<a href="https://mail.google.com/mail/u/0/?pli=1#inbox" class="link">anyuta.tonojan@gmail.com</a></li>
+            <li class="item">Phone:+375(29)184-97-34</li>
+            <li class="item">GitHub:<a href="https://github.com/tanna18" class="link">tanna18</a></li>
+        </ul>
+    </section>
+    <section class="about-me" id="summary">
+        <h2 class="section-title">About me</h2>
+        <p>At the moment I am a student of BSU. My strengths are purposefulness and desire to learn new things. I try to learn more about the direction of front-end development and apply more and more knowledge in practice. I love programming and I want to develop in this direction.</p>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="list">
+            <li class="item">HTML</li>
+            <li class="item">CSS</li>
+            <li class="item">JavaScript</li>
+            <li class="item">Linux(Ubuntu)</li>
+            <li class="item">Figma(for web development)</li>
+            <li class="item">Photoshop</li>
+        </ul>
+    </section>
+</main>
 </body>
 </html>
