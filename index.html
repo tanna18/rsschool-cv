@@ -14,9 +14,9 @@
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
           <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#contacts" class="nav-link">Code examples</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
+          <li class="nav-item"><a href="#educ" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
         </ul>
     </nav>
 </header>
@@ -49,6 +49,31 @@
             <li class="item">Figma(for web development)</li>
             <li class="item">Photoshop</li>
         </ul>
+    </section>
+    <section class="code" id="code">
+        <h2 class="section-title">Code exampless</h2>
+        <pre>function onRGBChange() {
+            const r = document.getElementById("rgb-first").value;
+            const g = document.getElementById("rgb-second").value;
+            const b = document.getElementById("rgb-third").value;
+            document.getElementById("rgb-first-num").innerHTML = r;
+            document.getElementById("rgb-second-num").innerHTML = g;
+            document.getElementById("rgb-third-num").innerHTML = b;
+            document.body.style.background = 'rgb(' + r + ',' + g + ',' + b + ')';
+            refreshCMY(r, g, b);
+            refreshHSV(r, g, b);
+        }
+    </pre>
+    </section>
+    <section class="educ" id="educ">
+        <h2 class="section-title">Education</h2>
+        <p>Belarusian State University - Faculty of Mechanics and Mathematics.</p>
+    </section>
+    <section class="lang" id="lang">
+<h2 class="section-title">Languages</h2>
+<ul class="list">
+    <li class="item">Russian - native language.</li>
+    <li class="item">English - A2.</li>
     </section>
 </main>
 </body>
