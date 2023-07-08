@@ -102,3 +102,29 @@ pre{
     color: rgb(119, 132, 125);
     font-weight: 500;
 }
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;  
+  
+  
+}
+.git-link{
+    color:rgb(119, 132, 125);
+    text-decoration: none;
+   transition: 0.3s;
+   font-size: 20px;
+}
+.footer img{
+    width: 20%;
+   
+}
+.itemm{
+    padding: 10px 110px;
+    color: rgb(120, 232, 182);
+    font-size: 25px;
+    background-color: rgb(227, 233, 228);
+  
+}
