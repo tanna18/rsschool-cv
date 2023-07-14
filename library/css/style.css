@@ -493,6 +493,7 @@ line-height: 40px;
 letter-spacing: 2px;
 text-align: center;
 padding-top: 20px;
+color: #0C0C0E;
 }
 .second-sect p{
 font-family: 'Inter';
@@ -516,14 +517,67 @@ hr{
 .card {
     margin: 30px 10px; 
 }
-.circle{
+.but-wrap{
     display: flex;
-    justify-content: center;     
+    justify-content: center;
+  }
+.round-button {
+  border-radius: 50%; 
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s ease; 
+  background-color: #000; 
+  border: none; 
+  margin-right:10px;
+  margin-top: 30px;
+  }
+  .round-button1 {
+    border-radius: 50%; 
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease; 
+    background-color:#BB945F; 
+    border: none; 
+    margin-right: 10px;
+    margin-top: 30px;
+    }
+  .round-button:hover {
+    transform: scale(1.2); 
+    opacity: .75;
+  }
+  .round-button1:hover {
+    transform: scale(1.2); 
+    opacity: .75;
+  }
+  
+  /*second end*/
+  /*three start*/
+  .three-sect{
+    height: 170vh;
+    background-size: cover;
+    padding-top: 130px;
 }
-.item{
-    margin: 30px 10px; 
-    width: 30px;
+.three-sect p{
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+padding-top: 40px;
 }
-.one {
-   color: #BB945F;
+.winter{
+    font-weight: 700;
 }
+.inp-wrap{
+    display: flex;
+    justify-content: left;
+  }
+  .item{
+    margin-right:90px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .itemm{
+    margin-right:20px;
+    margin-top: 50px;
+  }
