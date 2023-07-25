@@ -1,2 +1,1 @@
-https://tanna18.github.io/rsschool-cv/cv
-https://tanna18.github.io/rsschool-cv/
+https://rolling-scopes-school.github.io/tanna18-JSFEPRESCHOOL2023Q2/library/
