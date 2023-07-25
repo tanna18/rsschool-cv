@@ -389,6 +389,7 @@ textarea {
   }
   html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   *, *::after, *::before{
     box-sizing: inherit;
@@ -401,13 +402,14 @@ textarea {
     font-family: 'Inter';
   }
   .wrapper{
-  max-width: 1400px;
+  max-width: 1440px;
    margin: 0 auto;  
+
 }
 /*header start*/
 .header{
     width: 100%;
-    background-color: #000;
+    background-color: #0C0C0E;
 }
 .header h1{
     font-family: 'Forum';
@@ -455,10 +457,12 @@ font-weight: 400;
 line-height: 50px;
 color: #FFFFFF;
 text-decoration: none;
+
 }
 .header-link:hover, .header-link:focus, .header-link:active{
     opacity: .75;
     text-decoration: underline;
+    
 }
 /*header end*/
 /*first-sect*/
@@ -543,6 +547,7 @@ hr{
   .round-button:hover {
     transform: scale(1.2); 
     opacity: .75;
+    background-color: #000; 
   }
   .round-button1:hover {
     transform: scale(1.2); 
@@ -692,13 +697,15 @@ button:hover{
     height: 115vh;
     background-size: cover;
 }
- p{
+.four-sect p{
     font-size: 20px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 2px;
     text-align: center;
     padding-top: 40px;
+    max-width: 97%;
+    padding-left: 30px;
 }
 .four-sect h3{
     color: #BB945F;
@@ -859,7 +866,7 @@ text-decoration: none;
     line-height: 36px;
     letter-spacing: 0.02em;
     margin-left: 158px;
-    padding-top: 40px;    
+    padding-top: 50px;    
 }
 .text h4{
 font-family: 'Forum';
@@ -868,7 +875,7 @@ font-weight: 400;
 line-height: 33px;
 letter-spacing: 0.02em;
 text-align: right;
-padding-top: 40px;
+padding-top: 55px;
 padding-bottom: 35px;
 }
 .text h5{
@@ -900,7 +907,7 @@ text-align: left;
 padding-top: 20px;
 margin-left: 20px;
 }
-input{
+.six-sect input{
     width: 520px;
     height: 66px;
     border-radius: 10px;
@@ -908,7 +915,7 @@ input{
     border: none;
     margin-top: 20px;
 }
-input::placeholder {
+.six-sect input::placeholder {
     color: #8E8E8E;
     font-family: 'Forum';
     font-size: 30px;
@@ -958,5 +965,114 @@ input::placeholder {
     line-height: 12px;
     letter-spacing: 1px;
     text-align: center;
-    
+}
+/*section end*/
+/*footer start*/
+.footer{
+    height: 37vh;
+    background-color: #0C0C0E;
+    color: #FFFFFF;
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+}
+.texxt{
+    padding-left: 40px;
+padding-top: 20px;
+}
+.texxt h4{ 
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+.date{
+    padding-right: 40px;
+    padding-top: 20px;
+    text-align: right;
+}
+.date h4{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;  
+}
+.date h5{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;  
+}
+.date h6{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;  
+}
+.soz{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: -40px;
+}
+.soz-media {
+    padding-left: 40px;
+  }
+.foto{
+    margin-right: 15px;
+   
+}
+.soz-link{
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px;
+color: #FFFFFF;
+text-decoration: none;
+}
+footer hr{
+    width: 1440px;
+    padding-left: 20px;
+    border: 1px solid #FFFFFF;
+    margin-top: 30px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+.end h3{
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+margin-right: 494px;
+margin-top: 46px;
+}
+.end h4{
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+margin-right: 500px;
+margin-top: 44px;
+}
+.end a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.end h5{
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+margin-top: 44px;
+}
+.footer a{
+    list-style-type: none;
+    color: #FFFFFF;
+    text-decoration: none;
 }
