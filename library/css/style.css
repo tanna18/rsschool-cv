@@ -697,7 +697,16 @@ button:hover{
     height: 115vh;
     background-size: cover;
 }
-.four-sect p{
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 40px;
+  
+}
+.class-text {
     font-size: 20px;
     font-weight: 400;
     line-height: 40px;
@@ -707,6 +716,7 @@ button:hover{
     max-width: 97%;
     padding-left: 30px;
 }
+
 .four-sect h3{
     color: #BB945F;
     font-family: 'Forum';
